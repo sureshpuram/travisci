@@ -8,7 +8,8 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: dca6ce72d59a905a954534b5950ab72b7f30f205
+  github-token: 2a6a34154a144c195e9f7f890b84a6aa15ea9bb2
+  travis encrypt -r sureshpuram/travisci --pro
   keep-history: true
   on:
     branch: master
