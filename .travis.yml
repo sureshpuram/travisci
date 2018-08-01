@@ -8,7 +8,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: eIlyFhQWuPwK3-Vbr_yYfg
+  github-token: 77f3153aa9d8208070e30c2ae2faabdb2a7a741f
   #travis encrypt build=travisci --add env.matrix
   keep-history: true
   on:
