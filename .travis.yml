@@ -8,8 +8,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  user: "sureshpuram"
-  password: "travis123"
+  GitHub_Token: 2c9262c42050ec2ea4ed83e50502864e927e6cca
   keep-history: true
   on:
     branch: master
