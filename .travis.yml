@@ -8,10 +8,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  #github-token: 9e4a5417b0e1600cb90696ef926df5c9aafb11a2
-  #travis encrypt build=travisci --add env.matrix
-  user: "sureshpuram"
-  password: "travis123"
+  github-token: 9e4a5417b0e1600cb90696ef926df5c9aafb11a2
   keep-history: true
   on:
     branch: master
